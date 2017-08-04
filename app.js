@@ -11,7 +11,9 @@ var home = require('./home');
 
 app.use(cookieParser("asdAADVuh@!%$%$#dsadhack(*&^jj"));
 app.use(session({
-	secret:"asdAADVuh@!%$%$#dsadhack(*&^jj"
+	secret:"asdAADVuh@!%$%$#dsadhack(*&^jj",
+	resave: true,
+	saveUninitialized: true
 }));
 app.use("/home",home);
 app.use("/help",help);

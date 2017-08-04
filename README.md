@@ -1,8 +1,7 @@
 # NodeJS_Express_Session
 
 先執行兩個指令
-npm install
-npm install -g nodemon
+npm install, npm install -g nodemon
 
 執行:
 nodemon

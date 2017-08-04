@@ -1,9 +1,9 @@
 # NodeJS_Express_Session
 
-先執行兩個指令
-npm install, npm install -g nodemon
+開啟 Node.js command prompt
 
-執行:
-nodemon
+init 指令： npm install, npm install -g nodemon
 
-到瀏覽器上開啟 http://localhost:3000/
+執行： nodemon
+
+瀏覽： http://localhost:3000/
